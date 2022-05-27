@@ -1,0 +1,23 @@
+{
+  "name" : "wespals/phinx-db2-adapter",
+  "type" : "library",
+  "description" : "An IBM DB2 database adapter for the Phinx migration package",
+  "keywords": ["phinx", "migrations", "database", "db", "database migrations", "IBM", "DB2"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wes Pals",
+      "email": "wespals@gmail.com"
+    }
+  ],
+  "require" : {
+    "php" : ">=7.1",
+    "ext-PDO": "*",
+    "robmorgan/phinx" : "^0.6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhinxDb2Adapter\\": "src/PhinxDb2Adapter/"
+    }
+  }
+}
