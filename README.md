@@ -11,5 +11,5 @@ composer require wespals/phinx-db2-adapter
 use Phinx\Db\Adapter\AdapterFactory;
 use PhinxDb2Adapter\PhinxDb2Adapter;
 
-AdapterFactory::instance()->registerAdapter('ibm', 'PhinxDb2Adapter');
+AdapterFactory::instance()->registerAdapter('ibm', PhinxDb2Adapter::class);
 ```
